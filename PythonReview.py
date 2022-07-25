@@ -13,6 +13,7 @@ def add_comment(youtubevid,username,comments_text):
 	youtubevid["comments"][username] = comments_text
 	return youtubevid
 hi = create_youtube_video(hi,bye)
-like(hi)
+for i in range(495):
+	like(hi)
 dislike(hi)
 add_comment(hi,amin,goodbye)
