@@ -10,5 +10,9 @@ def dislike(youtubevid):
 		youtubevid["dislikes"]+=1
 	return youtubevid
 def add_comment(youtubevid,username,comments_text):
-	youtubevid[username] = comments_text
+	youtubevid["comments"][username] = comments_text
 	return youtubevid
+hi = create_youtube_video(hi,bye)
+like(hi)
+dislike(hi)
+add_comment(hi,amin,goodbye)
