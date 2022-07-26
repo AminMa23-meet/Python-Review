@@ -16,4 +16,4 @@ hi = create_youtube_video(hi,bye)
 for i in range(495):
 	like(hi)
 dislike(hi)
-add_comment(hi,amin,goodbye)
+add_comment(hi,"amin","goodbye")
